@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  min-height: 100vh;
+}
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+p {
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.input-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+.input-container input {
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.input-container button {
+  border: 1px solid #000;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: yellow;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  width: 450px;
+}
+ul li {
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: #f7a604;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+ul li p{
+    font-size: 20px;
+}
+ul li button{
+    border: none;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: yellow;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.dele-btn{
+    background-color: rgba(255, 0, 0, 0.342);
+    color: rgb(136, 255, 0);
+    font-weight: bolder;
+}

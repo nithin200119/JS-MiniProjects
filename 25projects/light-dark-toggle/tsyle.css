@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+body.light {
+  background-color: #e7e4ff;
+}
+body.dark {
+  background-color: #222222;
+}
+
+.container .change.light {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #000;
+  font-size: 20px;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.container .change.dark {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 30px;
+  font-size: 20px;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bolder;
+}

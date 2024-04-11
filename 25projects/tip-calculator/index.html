@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tip calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>tip calculator</h1>
+    <div class="form-wrapper">
+      <div class="input-wrapper">
+        <label for="bill-amount">bill amount</label>
+        <input
+          type="number"
+          id="bill-amount"
+          class="bill-amount"
+          placeholder="enter your total bill amount"
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="dis-percentage">Discount percentage</label>
+        <label for="" class="discount-value">0</label>
+        <input
+          type="range"
+          min="0"
+          max="50"
+          id="dis-percentage"
+          class="dis-percentage"
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="tip-percentage">tip percentage</label>
+        <label for="" class="tip-value">0</label>
+        <input
+          type="range"
+          min="0"
+          max="80"
+          id="tip-percentage"
+          class="tip-percentage"
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="no-of-customers">No of Customers</label>
+        <label for="" class="noCus-value">1</label>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="1"
+          id="no-of-customers"
+          class="no-of-customers"
+        />
+      </div>
+      <button class="generate-bill">generate Bill</button>
+      <div>
+        <label for="">total tip paid</label>
+        <label class="total-tip-paid" >0</label>
+      </div>
+      <div>
+        <label for="">total amount to pay</label>
+        <label for="" class="total-amount-to-pay">0</label>
+      </div>
+      <div>
+        <label for="">total amount to pay per person</label>
+        <label for="" class="singlePerson">0</label>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
